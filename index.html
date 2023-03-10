@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="flex header">
+        <img src="./images/upload-icon.svg" alt="icon-svg" />
+        <input
+          class="input-location"
+          type="text"
+          placeholder="enter location"
+        />
+        <div class="suggestion-box hide">
+          <ul></ul>
+        </div>
+
+        <img src="./images/notification.svg" alt="notication-icon" />
+      </div>
+
+      <div class="flex degree">
+        <div class="imgContainer">
+          <img src="./images/icons/static/day.svg" alt="" />
+        </div>
+        <div class="flex-col justify-content-center">
+          <h2 class="temp">72<sup>o</sup></h2>
+          <p class="expected">Feels like 62<sup>o</sup></p>
+        </div>
+      </div>
+
+      <p class="weather-text">
+        Make most of this nice weather that I generated for you. Or else
+      </p>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
